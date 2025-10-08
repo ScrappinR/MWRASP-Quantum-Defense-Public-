@@ -74,8 +74,6 @@ Triple Canopy diplomatic security contractor
 ## Documents Available
 
 - [Executive Summary](MWRASP_Executive_Summary.html) - One-page overview
-- [Strategic Contact Plan](MWRASP_Strategic_Contact_Plan.html) - Outreach strategy
-- [Contact Directory](MWRASP_Contact_Directory_With_Emails.html) - Key contacts
 
 ## Partnership Opportunities
 
