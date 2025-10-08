@@ -1,0 +1,143 @@
+# MWRASP Public Repository .gitignore
+
+# Sensitive Information - NEVER COMMIT
+*.key
+*.pem
+*.p12
+*.pfx
+*.cer
+*.crt
+credentials.json
+secrets.yml
+.env
+.env.local
+.env.production
+
+# Source Code - NDA Only
+src/
+source/
+lib/
+core/
+implementation/
+
+# Patent Details - NDA Only
+patents/claims/
+patents/specifications/
+patents/drawings/
+patent-applications/
+
+# Proprietary Documentation
+/docs/internal/
+/docs/proprietary/
+/docs/classified/
+technical-specs/
+implementation-guides/
+
+# Test Data
+test-results/
+benchmarks/raw/
+performance-data/
+quantum-results/
+
+# Development
+*.pyc
+__pycache__/
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+build/
+dist/
+*.egg-info/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.err
+error.txt
+
+# Temporary Files
+tmp/
+temp/
+cache/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# NDA Protected Directories
+/nda/
+/confidential/
+/proprietary/
+/restricted/
+/classified/
+
+# Customer Data
+customer-data/
+client-files/
+contracts/
+
+# Financial Information
+financial/
+pricing/
+costs/
+revenue/
+
+# Legal Documents
+/legal/drafts/
+/legal/contracts/
+/legal/negotiations/
+
+# Private Keys and Certificates
+ssl/
+tls/
+certificates/
+keys/
+
+# Dependencies (if any)
+node_modules/
+venv/
+env/
+vendor/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Backup Files
+*.backup
+*.bk
+backup/
+backups/
+
+# Archive Files (may contain sensitive data)
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+
+# Note: This repository should only contain PUBLIC information
+# All sensitive materials must remain in the NDA-protected repository

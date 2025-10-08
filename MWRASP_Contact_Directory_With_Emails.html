@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWRASP Contact Directory - With Contact Information</title>
+    <style>
+        @page {
+            size: letter;
+            margin: 0.5in;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.5;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 30px;
+            margin: -0.5in -0.5in 20px -0.5in;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 26pt;
+            font-weight: bold;
+        }
+        .subtitle {
+            font-size: 12pt;
+            margin-top: 10px;
+            opacity: 0.95;
+        }
+        .classification {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            color: #ffdd00;
+            font-size: 10pt;
+            font-weight: bold;
+        }
+        .important-note {
+            background: #ffeeee;
+            border: 2px solid #cc0000;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .contact-section {
+            background: #f8f9fa;
+            border-left: 5px solid #2a5298;
+            margin: 20px 0;
+            padding: 15px;
+            page-break-inside: avoid;
+        }
+        .org-header {
+            font-size: 16pt;
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 10px;
+        }
+        .contact-entry {
+            background: white;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 12px;
+            border-radius: 5px;
+        }
+        .contact-name {
+            font-weight: bold;
+            color: #2a5298;
+            font-size: 12pt;
+        }
+        .contact-title {
+            color: #666;
+            font-size: 10pt;
+            margin: 2px 0;
+        }
+        .contact-info {
+            margin: 8px 0;
+            padding: 8px;
+            background: #f0f8ff;
+            border-radius: 3px;
+        }
+        .email {
+            color: #0066cc;
+            text-decoration: none;
+            font-size: 10pt;
+        }
+        .phone {
+            color: #333;
+            font-size: 10pt;
+        }
+        .linkedin {
+            color: #0077b5;
+            font-size: 10pt;
+        }
+        .website {
+            color: #2a5298;
+            font-size: 10pt;
+        }
+        .contact-method {
+            display: flex;
+            align-items: center;
+            margin: 3px 0;
+        }
+        .contact-label {
+            font-weight: bold;
+            width: 80px;
+            color: #666;
+            font-size: 9pt;
+        }
+        .notes {
+            font-size: 9pt;
+            color: #666;
+            font-style: italic;
+            margin-top: 5px;
+            padding: 5px;
+            background: #fffbf0;
+            border-left: 2px solid #ffdd00;
+        }
+        .tier-label {
+            display: inline-block;
+            background: #ffdd00;
+            color: #333;
+            padding: 3px 10px;
+            border-radius: 15px;
+            font-size: 9pt;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .key-message {
+            background: #fff9e6;
+            border-left: 3px solid #ffdd00;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 10pt;
+        }
+        .footer {
+            margin-top: 30px;
+            padding: 15px;
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+        }
+        ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin: 3px 0;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+    <div class="classification">BUSINESS CONFIDENTIAL</div>
+
+    <div class="header">
+        <h1>MWRASP Contact Directory</h1>
+        <div style="font-size: 11pt; margin-top: 5px; opacity: 0.9;">Pronounced: "EM-rasp" /ˈɛm ræsp/</div>
+        <div class="subtitle">Strategic Outreach Contacts with Contact Information</div>
+        <div class="subtitle">Updated: January 2025</div>
+    </div>
+
+    <div class="important-note">
+        <strong>⚠️ IMPORTANT NOTICE:</strong><br>
+        Most government agencies and defense companies do NOT publish individual email addresses for security reasons. The contacts listed here include:
+        <ul>
+            <li>Public email addresses where available</li>
+            <li>General inquiry emails for organizations</li>
+            <li>LinkedIn profiles for direct messaging</li>
+            <li>Phone numbers where publicly available</li>
+        </ul>
+        <strong>Recommendation:</strong> Use LinkedIn for initial contact with individuals, or use organizational emails with "Attn: [Name]" in subject line.
+    </div>
+
+    <!-- TIER 1: GOVERNMENT - IMMEDIATE -->
+    <div class="contact-section">
+        <div class="org-header">DARPA - Defense Advanced Research Projects Agency <span class="tier-label">TIER 1 - WEEK 1</span></div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Andrew Carney</div>
+            <div class="contact-title">AIxCC Program Manager (AI Cyber Challenge)</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">aixcc@darpa.mil (Attn: Andrew Carney)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Program:</span>
+                    <span>$29.5M AI Cyber Challenge, DEF CON 2025 finals</span>
+                </div>
+            </div>
+            <div class="notes">✓ Direct program contact for AI security initiatives</div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Dr. Joe Altepeter</div>
+            <div class="contact-title">Program Manager - Defense Sciences Office (DSO)</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">dso@darpa.mil (Attn: Dr. Altepeter)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Focus:</span>
+                    <span>Quantum computing, Quantum Benchmarking Initiative (QBI)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Background:</span>
+                    <span>PhD Physics UIUC, Joined DARPA Sept 2019</span>
+                </div>
+            </div>
+            <div class="notes">✓ Leading quantum computing programs - perfect for post-quantum crypto discussion</div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Derek S. Bernsen</div>
+            <div class="contact-title">Program Manager - Information Innovation Office (I2O)</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">i2o@darpa.mil (Attn: Derek Bernsen)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Focus:</span>
+                    <span>Cyberspace operations, cybersecurity, program analysis, automation</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Joined:</span>
+                    <span>July 2024 - New PM, looking for innovative projects</span>
+                </div>
+            </div>
+            <div class="notes">✓ Newest I2O PM - ideal timing for first contact</div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Dr. Kathleen Fisher</div>
+            <div class="contact-title">Office Director - Information Innovation Office (I2O)</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">i2o@darpa.mil (Attn: Dr. Fisher)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Portfolio:</span>
+                    <span>Most of DARPA's AI R&D, AI Forward initiative, Trustworthy AI</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Focus:</span>
+                    <span>Safe, secure, trustworthy AI systems for national security</span>
+                </div>
+            </div>
+            <div class="notes">✓ Oversees DARPA's AI portfolio - key decision maker</div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">General DARPA Contacts</div>
+            <div class="contact-title">Program Office Inquiries</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">I2O Office:</span>
+                    <span class="email">i2o@darpa.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">MTO Office:</span>
+                    <span class="email">mto@darpa.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">DSO Office:</span>
+                    <span class="email">dso@darpa.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Connect:</span>
+                    <span class="email">darpaconnect@darpa.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Media:</span>
+                    <span class="email">outreach@darpa.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">darpa.mil/about/program-managers</span>
+                </div>
+            </div>
+            <div class="notes">Use DARPAConnect for initial introductions to specific PMs</div>
+        </div>
+
+        <div class="key-message">
+            <strong>Approach:</strong> Email darpaconnect@darpa.mil requesting introduction to AI/quantum PMs. Reference AIxCC integration capabilities and post-quantum readiness.
+        </div>
+    </div>
+
+    <!-- IN-Q-TEL -->
+    <div class="contact-section">
+        <div class="org-header">In-Q-Tel (IQT) <span class="tier-label">TIER 1 - WEEK 1</span></div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Steve Bowsher</div>
+            <div class="contact-title">President & CEO</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">sbowsher@iqt.org</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Phone:</span>
+                    <span class="phone">+1 (703) 248-3000</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Location:</span>
+                    <span>Arlington, VA / Menlo Park, CA</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">LinkedIn:</span>
+                    <span class="linkedin">Search: Steve Bowsher In-Q-Tel</span>
+                </div>
+            </div>
+            <div class="notes">✓ Direct email available - Harvard/Stanford alum, former InterWest Partners</div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Dr. Megan Anderson</div>
+            <div class="contact-title">EVP of Capabilities</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">info@iqt.org (Attn: Dr. Anderson)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Focus:</span>
+                    <span>AI infrastructure, security platforms</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">General IQT Contact</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Main:</span>
+                    <span class="phone">+1 (703) 248-3000</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Address:</span>
+                    <span>2107 Wilson Blvd, Suite 1100, Arlington, VA 22201</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">iqt.org</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="key-message">
+            <strong>Approach:</strong> Direct email to Steve Bowsher. Mention AI security portfolio (28% of investments), compare to Databricks success ($43B).
+        </div>
+    </div>
+
+    <!-- DIU -->
+    <div class="contact-section">
+        <div class="org-header">Defense Innovation Unit (DIU) <span class="tier-label">TIER 1 - WEEK 1</span></div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Emil Michael</div>
+            <div class="contact-title">Acting Director (Undersecretary for R&E)</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">info@diu.mil (Attn: Emil Michael)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Note:</span>
+                    <span>Assumed role August 2025 after Doug Beck departure</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">DIU General Contacts</div>
+            <div class="contact-title">Program Inquiries</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">General:</span>
+                    <span class="email">info@diu.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Comms:</span>
+                    <span class="email">SCT@diu.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">diu.mil/work-with-us</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Response:</span>
+                    <span>30-day response commitment</span>
+                </div>
+            </div>
+            <div class="notes">Submit via Company Intake Form + email for fastest response</div>
+        </div>
+
+        <div class="key-message">
+            <strong>Approach:</strong> Email info@diu.mil with executive summary. Emphasize TRL 7-8 readiness, Replicator support capabilities, 60-day contract potential.
+        </div>
+    </div>
+
+    <!-- SHIELD CAPITAL -->
+    <div class="contact-section">
+        <div class="org-header">Shield Capital <span class="tier-label">TIER 2 - WEEK 2</span></div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Raj Shah</div>
+            <div class="contact-title">Managing Partner</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">LinkedIn:</span>
+                    <span class="linkedin">linkedin.com/in/rajshah3/</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Location:</span>
+                    <span>San Francisco Bay Area</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Background:</span>
+                    <span>Former DIU Director, Princeton University</span>
+                </div>
+            </div>
+            <div class="notes">✓ 500+ connections, active on LinkedIn - best contact method</div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Philip Bilden</div>
+            <div class="contact-title">Managing Partner</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">LinkedIn:</span>
+                    <span class="linkedin">linkedin.com/in/philip-m-bilden-38918320a/</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Background:</span>
+                    <span>Former Navy Secretary nominee</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Lt. Gen Dan "Razin" Caine</div>
+            <div class="contact-title">Venture Partner (joined 2024)</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Contact:</span>
+                    <span class="email">Via Shield Capital website: shieldcap.com/contact</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Background:</span>
+                    <span>Former CIA ADMA, JSOC, F-16 pilot</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Shield Capital General</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">LinkedIn:</span>
+                    <span class="linkedin">linkedin.com/company/shieldcap (6,105 followers)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">shieldcap.com/contact</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Fund Size:</span>
+                    <span>$120M+ Fund I</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="key-message">
+            <strong>Approach:</strong> LinkedIn message to Raj Shah (most active). Mention Reconnaissance Marine background, will resonate with military investors.
+        </div>
+    </div>
+
+    <!-- ADDITIONAL KEY CONTACTS -->
+    <div class="contact-section">
+        <div class="org-header">Additional Priority Contacts <span class="tier-label">TIER 2-3</span></div>
+
+        <div class="contact-entry">
+            <div class="contact-name">AFWERX</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">afwerxinfo@afwerx.af.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">SBIR:</span>
+                    <span class="email">afwerx.sbir@afwerx.af.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">afwerx.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">NavalX</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">navalx@navy.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">navalx.navy.mil</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Army Futures Command</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">usarmy.futures@army.mil</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">armyfuturescommand.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">NSA Cybersecurity Directorate</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">cybersecurity_requests@nsa.gov</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Focus:</span>
+                    <span>Post-quantum cryptography standards</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Anduril Industries</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">CEO:</span>
+                    <span>Brian Schimpf (via LinkedIn)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">anduril.com/contact</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Focus:</span>
+                    <span>Lattice AI platform integration</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Palantir Technologies</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Gov Sales:</span>
+                    <span class="email">info@palantir.com</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">palantir.com/contact</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Focus:</span>
+                    <span>AIP/Gotham platform security</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Andreessen Horowitz (a16z)</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Partner:</span>
+                    <span>Katherine Boyle - American Dynamism (via LinkedIn)</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">a16z.com/american-dynamism</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-entry">
+            <div class="contact-name">Lux Capital</div>
+            <div class="contact-info">
+                <div class="contact-method">
+                    <span class="contact-label">Email:</span>
+                    <span class="email">info@luxcapital.com</span>
+                </div>
+                <div class="contact-method">
+                    <span class="contact-label">Website:</span>
+                    <span class="website">luxcapital.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- OUTREACH STRATEGY -->
+    <div class="contact-section">
+        <div class="org-header">📋 RECOMMENDED OUTREACH SEQUENCE</div>
+
+        <ol>
+            <li><strong>Wednesday Morning - Wave 1:</strong>
+                <ul>
+                    <li>Email: aixcc@darpa.mil (Andrew Carney)</li>
+                    <li>Email: darpaconnect@darpa.mil (Request PM intros)</li>
+                    <li>Email: sbowsher@iqt.org (Steve Bowsher direct)</li>
+                    <li>Email: info@diu.mil (DIU intake)</li>
+                </ul>
+            </li>
+
+            <li><strong>Wednesday Afternoon - Wave 2:</strong>
+                <ul>
+                    <li>LinkedIn: Raj Shah (Shield Capital)</li>
+                    <li>Email: afwerxinfo@afwerx.af.mil</li>
+                    <li>Email: navalx@navy.mil</li>
+                </ul>
+            </li>
+
+            <li><strong>Thursday - Follow-up:</strong>
+                <ul>
+                    <li>LinkedIn: Connect with all individuals found</li>
+                    <li>Submit DIU Company Intake Form</li>
+                    <li>Email: cybersecurity_requests@nsa.gov (PQC validation)</li>
+                </ul>
+            </li>
+
+            <li><strong>Week 2:</strong>
+                <ul>
+                    <li>Follow up on all initial contacts</li>
+                    <li>Reach out to Anduril, Palantir</li>
+                    <li>Contact VCs (a16z, Lux, 8VC)</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <!-- EMAIL TEMPLATES -->
+    <div class="contact-section">
+        <div class="org-header">📧 EMAIL TEMPLATE STRUCTURE</div>
+
+        <div style="background: white; padding: 15px; border: 1px solid #ddd; margin: 10px 0; font-family: monospace; font-size: 10pt;">
+            <strong>Subject:</strong> Seeking Guidance on Post-Quantum Cybersecurity Innovation - MWRASP<br><br>
+
+            <strong>For DARPA/Government R&D:</strong><br>
+            "Dear [Name/Program Manager],<br><br>
+            I'm writing to seek your guidance on a cybersecurity technology I've been developing called MWRASP (pronounced "EM-rasp"). While I have defense industry experience (USMC Staff Sergeant, Reconnaissance Marine, Triple Canopy diplomatic security), I'm outside the traditional R&D community and would greatly appreciate your perspective on the best path forward.<br><br>
+
+            My Background:<br>
+            - USMC Staff Sergeant (2003-2009): Reconnaissance Marine, 60+ combat missions, Bronze Star<br>
+            - Triple Canopy (2008-2009): High-threat diplomatic security operations in Iraq<br>
+            - Current: Business owner with government contracting experience<br>
+            - Developer who's been working on this technology independently<br><br>
+
+            What I've Built:<br>
+            MWRASP creates "biometrics" for AI agents based on their computational behavior patterns - how they allocate memory, make decisions, and process information. It also enables covert communication between AI agents through these behavioral patterns.<br><br>
+
+            Current Status:<br>
+            - 80+ patent applications filed covering core innovations<br>
+            - 119,000+ lines of implemented code with working prototypes<br>
+            - Successfully tested on IBM quantum hardware<br>
+            - NIST post-quantum cryptographic implementation<br><br>
+
+            My Challenge:<br>
+            I've taken this as far as I can independently, but I'm unsure what direction to pursue. My operational background gives me perspective on real-world security challenges, but I lack the R&D community connections to properly evaluate this technology's potential.<br><br>
+
+            What I'm Hoping For:<br>
+            I'm genuinely seeking guidance rather than making a pitch:<br>
+            - Does this technology address problems [your organization] considers important?<br>
+            - What direction should I pursue (if any)?<br>
+            - Are there specific programs or people I should connect with?<br>
+            - Is this worth pursuing further, or should I focus elsewhere?<br><br>
+
+            I have comprehensive technical documentation available, but I'm more interested in your strategic guidance about whether and how to proceed than in demonstrating capabilities.<br><br>
+
+            Would you be willing to have a brief conversation to help orient me? Your insight would be invaluable in determining next steps.<br><br>
+
+            Thank you for your time and consideration.<br><br>
+
+            Best regards,<br>
+            Brian J. Rutherford<br>
+            Actual@ScrappinR.com"<br><br>
+
+            <strong>For VCs/Industry (Modified Tone):</strong><br>
+            "Dear [Name],<br><br>
+            I'm a former Reconnaissance Marine who's been developing post-quantum cybersecurity technology independently. I'm seeking guidance on whether this has commercial potential and what the best path forward might be.<br><br>
+
+            The technology (MWRASP, pronounced "EM-rasp") creates behavioral authentication for AI agents - essentially biometrics based on how AI systems compute. With 80+ patents filed and IBM quantum validation, I believe it's 2-3 years ahead of current solutions.<br><br>
+
+            I'm outside traditional tech/VC circles and would value your perspective on:<br>
+            - Market potential and timing<br>
+            - Whether to pursue funding, acquisition, or partnerships<br>
+            - Key players I should connect with<br><br>
+
+            Would you be open to a brief conversation? I'm looking for strategic guidance more than investment at this stage.<br><br>
+
+            Best regards,<br>
+            Brian Rutherford<br>
+            Actual@ScrappinR.com"
+        </div>
+    </div>
+
+    <!-- IMPORTANT NOTES -->
+    <div class="contact-section" style="background: #fff0f0; border-left-color: #cc0000;">
+        <div class="org-header">⚠️ CRITICAL REMINDERS</div>
+
+        <ul>
+            <li><strong>Security:</strong> Government personnel rarely publish personal emails - use official channels</li>
+            <li><strong>LinkedIn:</strong> Most effective for reaching specific individuals in defense tech</li>
+            <li><strong>Follow-up:</strong> Allow 48-72 hours before follow-up</li>
+            <li><strong>Attachments:</strong> Keep under 5MB, PDF format only</li>
+            <li><strong>Subject Lines:</strong> Clear, specific, include "AI Security" or "Post-Quantum"</li>
+            <li><strong>Time Zones:</strong> Send during East Coast business hours (9 AM - 3 PM EST)</li>
+            <li><strong>Tracking:</strong> Use email tracking to see opens/clicks</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <div style="font-size: 12pt; margin-bottom: 5px;">MWRASP Contact Directory</div>
+        <div style="font-size: 10pt;">Confidential - Do Not Distribute</div>
+        <div style="font-size: 9pt; margin-top: 10px;">Updated January 2025</div>
+    </div>
+</body>
+</html>
