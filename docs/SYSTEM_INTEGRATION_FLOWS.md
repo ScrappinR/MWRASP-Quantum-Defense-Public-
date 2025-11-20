@@ -5,6 +5,8 @@
 **Document Classification:** Technical Integration Specification
 **Version:** 1.0
 **Date:** January 2025
+**Development Stage:** Advanced Proof-of-Concept / Pre-Production
+**Status:** Integration flows designed; end-to-end testing required for validation
 
 ---
 
