@@ -1,4 +1,4 @@
-# MWRASP Deep Technical Architecture
+# MWRASP Technical Architecture
 ## Advanced System Design and Mathematical Foundations
 
 **Document Classification:** Technical Architecture - Highly Detailed
